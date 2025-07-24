@@ -1,0 +1,39 @@
+# Compiled class files and archives
+/out/
+/bin/
+/build/
+/target/
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+### IntelliJ IDEA ###
+# User-specific settings
+.idea/
+# Module files
+*.iml
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
