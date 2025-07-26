@@ -46,7 +46,7 @@ There are three ways to use the Git Dashboard:
 1.  Clone this repository:
 
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/GitDashboard.git](https://github.com/YOUR_USERNAME/GitDashboard.git)
+    git clone https://github.com/Anandsortur/GitDashboard.git
     ```
 
 2.  Navigate into the project directory:
