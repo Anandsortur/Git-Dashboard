@@ -46,6 +46,6 @@ public class GitCommandRunner {
             e.printStackTrace();
         }
 
-        return output.toString().trim();
+        return output.toString();
     }
 }
