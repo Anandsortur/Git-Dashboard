@@ -28,6 +28,8 @@ There are three ways to use the Git Dashboard:
 1.  **[Download the `GitDashboard.jar` from the latest release here.](https://github.com/Anandsortur/Git-Dashboard/releases/download/v1.0/GitDashboard.jar)**
 2.  Place the downloaded `.jar` file in any project folder.
 3.  Open a terminal in that folder and run:
+
+
     ```bash
     java -jar GitDashboard.jar
     ```
