@@ -21,9 +21,19 @@ It's designed to be a practical, developer-friendly utility that saves you from 
 
 ## Installation & Usage
 
-There are two ways to use the Git Dashboard:
+There are three ways to use the Git Dashboard:
 
-### 1. Simple Usage (Runnable JAR)
+### 1. Easiest Method: Direct Download
+
+1.  **[Download the `GitDashboard.jar` from the latest release here.](https://github.com/Anandsortur/Git-Dashboard/releases/download/v1.0/GitDashboard.jar)**
+2.  Place the downloaded `.jar` file in any project folder.
+3.  Open a terminal in that folder and run:
+    ```bash
+    java -jar GitDashboard.jar
+    ```
+
+
+### 2. Simple Usage (Runnable JAR)
 
 **Prerequisites:**
 
@@ -60,7 +70,7 @@ There are two ways to use the Git Dashboard:
     java -jar /path/to/your/GitDashboard.jar
     ```
 
-### 2. Professional Usage
+### 3. Professional Usage
 
 Make the dashboard a native command (`git-dash`) that you can run from anywhere.
 
@@ -99,6 +109,6 @@ git-dash
 
 ---
 
-### 3. The "Why I Built This" Section
+### 4. The "Why I Built This" Section
 
 As a developer, I found myself constantly running the same set of Git commands (`git status`, `git branch`, `git log`) to get a sense of where my project stood. I built this dashboard to consolidate that information into a single, fast command. It was also a great opportunity to work with core Java features like `ProcessBuilder` and I/O streams to interact with the underlying operating system.
